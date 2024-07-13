@@ -7,4 +7,4 @@ listItems.forEach(item => {
   const elementsAmount = item.querySelectorAll('ul>li').length;
   console.log(`Category: ${categoryTitle}`);
   console.log(`Elements: ${elementsAmount}`);
-})
+});
