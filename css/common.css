@@ -12,3 +12,45 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#categories {
+  max-width: 392px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.item {
+  padding: 16px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
+.item h2 {
+  font-family: "Montserrat", sans-serif;;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0 0 16px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item li {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
