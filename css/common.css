@@ -56,3 +56,10 @@ ul {
   border: 1px solid #808080;
   border-radius: 4px;
 }
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
