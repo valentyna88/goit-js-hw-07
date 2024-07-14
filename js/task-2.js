@@ -27,14 +27,10 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-gallery.style.display = 'flex';
-gallery.style.flexWrap = 'wrap';
-gallery.style.gap = '48px 24px';
-
 const galleryItems = images.map(({ url, alt }) => {
   return `
-    <li style='flex: 1 1 calc((100% - 2 * 24px) / 3); border-radius: 8px; overflow: hidden;'>
-      <img src="${url}" alt="${alt}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <li class='gallery-item'>
+      <img src="${url}" alt="${alt}" class='gallery-img'>
     </li>
     `;
 }).join('');
