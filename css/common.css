@@ -57,9 +57,20 @@ ul {
   border-radius: 4px;
 }
 
+p a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
 
-.gallery {
+p a:hover {
+  text-decoration: underline;
+  color: #20ebeb;
+}
+
+
+/* .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-}
+} */
