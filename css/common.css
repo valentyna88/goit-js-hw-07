@@ -179,28 +179,32 @@ h1 {
 /* ===== Task 5 ===== */
 
 .widget {
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
   margin: 0 auto;
   border-radius: 8px;
   padding: 100px 88px;
-  max-width: 345px;
+  width: 345px;
+  height: 280px;
   background-color: #fff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.widget p {display: flex;
-  justify-content: center;
-  align-items: center;
+.widget p {
+  
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.50;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  white-space: nowrap;
 }
 
 .change-color {
   border-radius: 8px;
   padding: 8px 16px;
-  width: 148px;
+  min-width: 148px;
   background-color: #4e75ff;
   font-family: "Montserrat",sans-serif;
   font-weight: 500;
