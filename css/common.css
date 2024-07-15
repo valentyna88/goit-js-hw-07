@@ -176,3 +176,16 @@ h1 {
   background-color: #40bdee;
 }
 
+/* ===== Task 5 ===== */
+
+.widget {
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
