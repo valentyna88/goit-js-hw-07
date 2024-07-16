@@ -4,7 +4,7 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const input = document.querySelector('input');
+const input = document.querySelector('input[type="number"]');
 const createButton = document.querySelector('[data-create]');
 const destroyButton = document.querySelector('[data-destroy]');
 const boxes = document.getElementById('boxes');
@@ -14,6 +14,8 @@ createButton.addEventListener('click', () => {
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
     input.value = '';
+  } else {
+    alert(`Input value must be between 1 and 100`);
   }
 });
 
