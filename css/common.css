@@ -226,40 +226,18 @@ h1 {
 
 #controls {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 16px;
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
-  height: 104px;
   background-color: #f6f6fe;
   margin: 0 auto 16px;
 }
 
 #boxes {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  gap: 44px;
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
-  height: 134px;
-  background-color: #f6f6fe;
-  margin: 0 auto 16px;
-}
-
-.box {
-  display: inline-block;
-}
-
-#controls input {
-  border: 1px solid #808080;
-  border-radius: 8px;
-  padding: 8px 72px;
-  width: 150px;
-  height: 40px;
 }
 
 #controls button {
